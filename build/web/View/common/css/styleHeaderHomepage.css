@@ -1,0 +1,105 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : May 18, 2024, 10:04:35 AM
+    Author     : PC
+*/
+
+* {
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    margin: 0;
+    overflow-x: hidden;
+}
+
+section{
+    padding: 3rem 0 2rem;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+    align-items: center;
+}
+
+.header-search input{
+    width: 500px;
+    height: 30px;
+}
+
+.header-cart, .header-user i{
+    color: black;
+    height: 30px;
+    margin: 10px 10px;
+}
+
+.header-search{
+    margin-bottom: 15px;
+}
+
+.header-infor{
+    
+}
+
+.navbar{
+    margin-top: -20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background-color: aqua;
+}
+
+.navigation li{
+    display: inline-block;
+    padding: 20px;
+
+}
+
+.navigation li a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.navigation li:hover, 
+.navigation li:hover a {
+    background-color: #ccc;
+    color: white;
+}
+
+.navbar-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-right a{
+    text-decoration: none;
+    color: black;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.navbar-right a:hover{
+    color: white;
+}
